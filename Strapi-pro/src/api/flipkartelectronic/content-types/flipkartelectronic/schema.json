@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "flipkartelectronics",
+  "info": {
+    "singularName": "flipkartelectronic",
+    "pluralName": "flipkartelectronics",
+    "displayName": "Flipkartelectronic"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "categorytype": {
+      "type": "string"
+    },
+    "electronicitems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "flipkart.flipkart"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_flipkart_flipkarts",
+  "info": {
+    "displayName": "Flipkart"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}
